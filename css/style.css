@@ -243,6 +243,10 @@ a {
   transform: rotate(-3deg);
 }
 
+.coming-soon .project__media {
+  cursor: default;
+}
+
 .placeholder {
   display: block;
   width: 100%;
