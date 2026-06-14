@@ -47,26 +47,18 @@
     <!-- Intro -->
     <section class="intro" id="information" data-reveal>
       <!-- Animated background effect -->
-      <svg class="intro__gradient" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <svg class="intro__gradient" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
         <defs>
-          <linearGradient id="gradientFlow" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" style="stop-color:#D9D7F0;stop-opacity:0.3" />
-            <stop offset="25%" style="stop-color:#D7E3D0;stop-opacity:0.25" />
-            <stop offset="50%" style="stop-color:#FDEAB9;stop-opacity:0.3" />
-            <stop offset="75%" style="stop-color:#B4D6FD;stop-opacity:0.25" />
-            <stop offset="100%" style="stop-color:#D9D7F0;stop-opacity:0.3" />
-          </linearGradient>
-
           <filter id="blur">
-            <feGaussianBlur in="SourceGraphic" stdDeviation="40" />
+            <feGaussianBlur in="SourceGraphic" stdDeviation="50" />
           </filter>
         </defs>
 
         <!-- Animated blobs -->
-        <circle class="blob blob-1" cx="200" cy="100" r="120" fill="url(#gradientFlow)" filter="url(#blur)" />
-        <circle class="blob blob-2" cx="150" cy="300" r="100" fill="#D7E3D0" opacity="0.2" filter="url(#blur)" />
-        <circle class="blob blob-3" cx="280" cy="350" r="110" fill="#B4D6FD" opacity="0.15" filter="url(#blur)" />
-        <circle class="blob blob-4" cx="100" cy="450" r="90" fill="#FDEAB9" opacity="0.18" filter="url(#blur)" />
+        <circle class="blob blob-1" cx="300" cy="150" r="140" fill="#D9D7F0" opacity="0.25" filter="url(#blur)" />
+        <circle class="blob blob-2" cx="200" cy="350" r="130" fill="#D7E3D0" opacity="0.2" filter="url(#blur)" />
+        <circle class="blob blob-3" cx="400" cy="400" r="135" fill="#B4D6FD" opacity="0.22" filter="url(#blur)" />
+        <circle class="blob blob-4" cx="150" cy="500" r="120" fill="#FDEAB9" opacity="0.18" filter="url(#blur)" />
       </svg>
 
       <h1 class="intro__text">
