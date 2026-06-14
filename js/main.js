@@ -46,13 +46,4 @@ $(function () {
       );
     }
   });
-
-  /* ---- Logo color animation on project hover ---- */
-  var $logo = $('.brand__logo');
-
-  $('.project__media').on('mouseenter', function () {
-    $logo.addClass('animating');
-  }).on('mouseleave', function () {
-    $logo.removeClass('animating');
-  });
 });
