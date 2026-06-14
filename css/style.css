@@ -141,12 +141,17 @@ a {
 
 .intro__gradient {
   position: absolute;
-  top: -150px;
-  right: -400px;
+  top: -180px;
+  right: -450px;
   width: 700px;
   height: 700px;
   pointer-events: none;
+  overflow: visible;
   display: none;
+}
+
+.intro__gradient .blob {
+  overflow: visible;
 }
 
 .blob {
