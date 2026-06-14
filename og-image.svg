@@ -1,0 +1,32 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#ffffff"/>
+
+  <!-- Subtle gradient line -->
+  <line x1="0" y1="100" x2="1200" y2="100" stroke="#ededed" stroke-width="1"/>
+
+  <!-- Logo placeholder circle -->
+  <circle cx="600" cy="220" r="80" fill="none" stroke="#040404" stroke-width="2"/>
+  <circle cx="600" cy="220" r="60" fill="#040404" opacity="0.05"/>
+
+  <!-- Main text -->
+  <text x="600" y="380" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="56" font-weight="500" text-anchor="middle" fill="#040404">
+    Yahor
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="430" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="28" font-weight="400" text-anchor="middle" fill="#9a9a9a">
+    iOS Growth Product Designer
+  </text>
+
+  <!-- Accent dots -->
+  <circle cx="150" cy="550" r="4" fill="#D9D7F0"/>
+  <circle cx="200" cy="560" r="3" fill="#D7E3D0"/>
+  <circle cx="250" cy="555" r="4" fill="#FDEAB9"/>
+  <circle cx="300" cy="565" r="3" fill="#B4D6FD"/>
+
+  <circle cx="900" cy="550" r="4" fill="#B4D6FD"/>
+  <circle cx="950" cy="560" r="3" fill="#FDEAB9"/>
+  <circle cx="1000" cy="555" r="4" fill="#D7E3D0"/>
+  <circle cx="1050" cy="565" r="3" fill="#D9D7F0"/>
+</svg>
